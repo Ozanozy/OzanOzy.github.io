@@ -19,24 +19,24 @@
                          if ($sayi == 1)
                             {
                                 //gs
-                            $resim = $resim = "<img src='http://localhost/amatoryorumcular/storage/app/public/logo/1.png' class='img-circle avatar' height='60' width='50'>";
+                            $resim = $resim = "<img src='/storage/logo/1.png' class='img-circle avatar' height='60' width='50'>";
                             }
                           elseif($sayi == 2)
                           {    //beşiktaş
-                              $resim = $resim = "<img src='http://localhost/amatoryorumcular/storage/app/public/logo/2.png' class='img-circle avatar' height='60' width='50'>";
+                              $resim = $resim = "<img src='/storage/logo/2.png' class='img-circle avatar' height='60' width='50'>";
                           }
 
                          elseif($sayi == 3)
                          {    //fenerbahçe
-                             $resim = $resim = "<img src='http://localhost/amatoryorumcular/storage/app/public/logo/3.png' class='img-circle avatar' height='60' width='50'>";
+                             $resim = $resim = "<img src='/storage/logo/3.png' class='img-circle avatar' height='60' width='50'>";
                          }
                          elseif($sayi == 4)
                          {    //trabzon
-                             $resim = $resim = "<img src='http://localhost/amatoryorumcular/storage/app/public/logo/4.png' class='img-circle avatar' height='60' width='50'>";
+                             $resim = $resim = "<img src='/storage/logo/4.png' class='img-circle avatar' height='60' width='50'>";
                          }
                          elseif($sayi == 5)
                          {    //başakşehir
-                             $resim = $resim = "<img src='http://localhost/amatoryorumcular/storage/app/public/logo/5.png' class='img-circle avatar' height='60' width='50'>";
+                             $resim = $resim = "<img src='/storage/logo/5.png' class='img-circle avatar' height='60' width='50'>";
                          }
                          elseif($sayi == 6)
                          {    //diğer
