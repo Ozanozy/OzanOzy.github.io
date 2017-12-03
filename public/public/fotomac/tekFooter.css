@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0;}
+:focus {outline:0;}
+body {}
+ol, ul {list-style:none; padding:0; margin:0;}
+table {border-collapse:collapse;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+
+.tekFooter.siyah {background:#000; border-color:#666;}
+	/*.tekFooter.siyah .list li a {background:url(../i/tekFooterBlack.png);}*/
+	.tekFooter.siyah .bottom {color:#ccc;}
+	/*.tekFooter.siyah .left a {background-image:url(../i/turkuvaz2.png?v=1)}
+	.tekFooter.siyah .right a {background-image:url(../i/turkuvaz2.png?v=1)}*/
+	.tekFooter.siyah .top {border-bottom:1px solid #666;}
+	/*.tekFooter.siyah .left {background-image:url(../i/sepBlack2.png);}
+	.tekFooter.siyah .right {background-image:url(../i/sepBlack2.png);}*/
+
+.tekFooter {border:1px solid #ddd; border-radius:3px; background:#fff; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+	.tekFooter .tekFooter a {text-decoration:none; color:#362f2d; cursor:pointer;}
+	.cls {font-size:0; line-height:1px; display:block; clear:both; height:1px;}
+	.tekFooter .top {min-height:165px; position:relative; border-bottom:1px solid #ddd; padding:10px 10px 9px 10px;
+		/*  for ie7  */
+		*zoom: expression( 
+			  this.runtimeStyle.zoom="1",
+			  this.appendChild( document.createElement("small") ).className="after",
+			  this.insertBefore( document.createElement("i") ).className="before"
+		 );
+	}
+	.tekFooter .top .after,
+	.tekFooter .top:after,
+	.tekFooter .top .before,
+	.tekFooter .top:before {content: " "; width:2px; height:165px; position:absolute; top:10px; left:100px; background:url(../i/sep2.jpg) no-repeat;}
+	.tekFooter .top .after,
+	.tekFooter .top:after {left:auto; right:100px;}
+	.tekFooter.siyah .top .after,
+	.tekFooter.siyah .top:after,
+	.tekFooter.siyah .top .before,
+	.tekFooter.siyah .top:before {background-image:url('../i/sepBlack2.png?v2')}
+	.tekFooter .bottom {text-align:center; height:25px; line-height:25px;}
+
+.tekFooter .left,
+.tekFooter .right {position:absolute; top:10px; left:15px;}
+	.tekFooter .right {top:105px;}
+	.tekFooter .left a {display:block; background:url('../i/turkuvaz2.png?v=2') right top; width:65px; height:52px;}
+	.tekFooter .right a {display:block; background:url('../i/turkuvaz2.png?v=2') left -2px; width:66px; height:46px;}
+
+.social {width:77px; position:absolute; top:10px; right:10px;}
+	.social ul {}
+	.social ul li {width:77px; display:inline-block; margin-bottom:13px;}
+	.social ul li a {width:77px; height:28px; display:block; background:url('../i/social.png?v2') no-repeat;}
+	.social ul li.appStore a {background-position:0 0;}
+	.social ul li.googlePlay a {background-position:0 -58px;}
+	.social ul li.wPhone a {background-position:0 -117px;}
+	.social ul li.faceTwt a {width:27px; margin:0 5px;  float:right; background-position:-50px -175px;}
+	.social ul li.faceTwt a:first-child {float:left; background-position:0 -175px;}
+
+.tekFooter .list {margin:0 100px;}
+	.tekFooter .list ul {width:100%; display:inline-block; text-align:center;}
+	.tekFooter .list li {display:inline-block; *zoom:1; *display:inline; margin:0 5px 3px;}
+	.tekFooter .list li a {background:url('../i/tekFooter2.png?v11') no-repeat; display:block; height:42px;}
+	.tekFooter .list li.sabah a {width:64px; background-position:left 7px;}
+	.tekFooter .list li.fotomac a {width:80px; background-position:left -189px;}
+	.tekFooter .list li.takvim a {width:71px; background-position:left -252px;}
+	.tekFooter .list li.yeniAsir a {width:73px; background-position:left -319px;}
+	.tekFooter .list li.dailyS a {width:78px; background-position:left -448px;}
+	.tekFooter .list li.sabahAvr a {width:71px; background-position:left -127px;}
+	.tekFooter .list li.sabahUSA a {width:65px; background-position:left -59px;}
+	/*.tekFooter .list li.isteInsan a {width:55px; background-position:left 0px;}
+	.tekFooter .list li.sabahEmlak a {width:62px; background-position:left 0px;}*/
+	.tekFooter .list li.sariSayfalar a {width:76px; background-position:left -383px;}
+	.tekFooter .list li.teknokulis a {width:83px; background-position:left -1106px;}
+	.tekFooter .list li.atv a {width:44px; background-position:left -527px;}
+	.tekFooter .list li.a2 a {width:31px; background-position:left -2557px;}
+	.tekFooter .list li.aHbr a {width:37px; background-position:left -725px;}
+	.tekFooter .list li.aHbrRadyo a {width:31px; background-position:left -593px;}
+	.tekFooter .list li.aSpor a {width:36px; background-position:left -791px;}
+	.tekFooter .list li.aNews a {width:36px; background-position:left -2735px;}
+	.tekFooter .list li.minikaCocuk a {width:76px; background-position:left -916px;}
+	.tekFooter .list li.minikaGo a {width:42px; background-position:left -659px;}
+	.tekFooter .list li.atvAvr a {width:57px; background-position:left -854px;}
+	.tekFooter .list li.cafeRuj a {width:44px; background-position:left -1050px;}
+	.tekFooter .list li.otoHaber a {width:64px; background-position:left -2232px;}
+	.tekFooter .list li.yAsirIlan a {width:83px; background-position:left -2356px;}
+	.tekFooter .list li.turMblMdy a {width:59px; background-position:left -988px;}
+	.tekFooter .list li.home a {width:61px; background-position:left -1966px;}
+	.tekFooter .list li.sofra a {width:60px; background-position:left -2033px;}
+	.tekFooter .list li.forbes a {width:63px; background-position:left -1306px;}
+	.tekFooter .list li.samdan a {width:74px; background-position:left -2294px;}
+	.tekFooter .list li.cosmopolitan a {width:77px; background-position:left -1700px;}
+	.tekFooter .list li.para a {width:68px; background-position:left -2163px;}
+	.tekFooter .list li.globalEnerji a {width:81px; background-position:left -1438px;}
+	.tekFooter .list li.houseBeau a {width:77px; background-position:left -2096px;}
+	.tekFooter .list li.lacivert a {width:36px; background-position:left -2435px;}
+	/*.tekFooter .list li.radyoTurkuvaz a {width:59px; background-position:left 0px;}*/
+	.tekFooter .list li.turMat a {width:58px; background-position:left -1845px;}
+	.tekFooter .list li.turDag a {width:58px; background-position:left -2676px;}
+	.tekFooter .list li.bazaar a {width:71px; background-position:left -1569px;}
+	.tekFooter .list li.cosmopolitanBride a {width:71px; background-position:left -1771px;}
+	.tekFooter .list li.aktuel a {width:70px; background-position:left -1171px;}
+	.tekFooter .list li.bebegim a {width:65px; background-position:left -1503px;}
+	.tekFooter .list li.esquire a {width:85px; background-position:left -1373px;}
+	.tekFooter .list li.cosmoGirl a {width:50px; background-position:left -1645px;}
+	.tekFooter .list li.aboneTur a {width:74px; background-position:left -1911px;}
+	.tekFooter .list li.chinaToday a {width:73px; background-position:left -1241px;}
+	.tekFooter .list li.minika a {    width:73px; background-position: left -2504px;}
+	.tekFooter .list li.turkuvazRadyolar a {    width:85px; background-position:left -2622px;}
+	.tekFooter .list li.turkuvazKirtasiye a { width:85px; background-position:left -2786px;}
+	.tekFooter .list li.vavRadyo a { width: 36px; background-position:left -2841px;}
+	.tekFooter .list li.fikriyat a { width: 100px; background-position: left -2888px;}
+	.tekFooter .list li.asporRadyo a { width: 33px; background-position: left -2951px;}
+	
+	/* Siyah Footer */
+	
+	.tekFooter.siyah .list li a {background:url('../i/tekFooterBlack.png?v10') no-repeat; display:block; height:42px;margin-bottom:3px;}
+	.tekFooter.siyah .list li.sabah a { width: 80px;height: 34px; background-position: -10px -1399px;}
+	.tekFooter.siyah .list li.fotomac a {width:80px;height:28px;background-position:-10px -830px}
+	.tekFooter.siyah .list li.takvim a{width:80px;height:29px;background-position:-10px -1693px}
+	.tekFooter.siyah .list li.yeniAsir a {width:80px;height:29px;background-position:-10px -2055px}
+	.tekFooter.siyah .list li.dailyS a {width:78px;height:25px;background-position:-10px -720px}
+	.tekFooter.siyah .list li.sabahAvr a{width:80px;height:34px;background-position:-10px -1453px}
+	.tekFooter.siyah .list li.sabahUSA a {width:80px;height:37px;background-position:-10px -1961px}
+	.tekFooter.siyah .list li.sariSayfalar a {width:80px;height:32px;background-position:-10px -1507px}
+	.tekFooter.siyah .list li.teknokulis a{width:85px;height:31px;background-position:-10px -71px}
+	.tekFooter.siyah .list li.atv a {width:47px;height:45px;background-position:-10px -362px}
+	.tekFooter.siyah .list li.a2 a {width:33px;height:45px;background-position:-10px -2192px;}
+	.tekFooter.siyah .list li.aHbr a {width:40px;height:45px;background-position:-10px -110px}
+	.tekFooter.siyah .list li.aHbrRadyo a {width:33px;height:45px;background-position:-10px -175px}
+	.tekFooter.siyah .list li.aNews a {width:40px; background-position:-10px -2348px;}
+	.tekFooter.siyah .list li.aSpor a {width:40px;height:45px;background-position:-10px -240px}
+	.tekFooter.siyah .list li.minikaCocuk a {width:80px;height:39px;background-position:-10px -1186px}
+	.tekFooter.siyah .list li.minikaGo a {width:46px;height:46px;background-position:-10px -1237px}
+	.tekFooter.siyah .list li.atvAvr a {width:66px;height:40px;background-position:-10px -427px}
+	.tekFooter.siyah .list li.cafeRuj a {width:40px;height:32px;background-position:-10px -487px}
+	.tekFooter.siyah .list li.otoHaber a{width:80px;height:33px;background-position:-10px -1303px}
+	.tekFooter.siyah .list li.yAsirIlan a {width:100px;height:26px;background-position:-10px -2091px}
+	.tekFooter.siyah .list li.turMblMdy a {width:70px;height:43px;background-position:-10px -1848px}
+	.tekFooter.siyah .list li.home a {width:75px;height:29px;background-position:-10px -1045px}
+	.tekFooter.siyah .list li.sofra a {width:75px;height:29px;background-position:-10px -1594px}
+	.tekFooter.siyah .list li.forbes a {width:75px;height:29px;background-position:-10px -791px}
+	.tekFooter.siyah .list li.samdan a {width:80px;height:28px;background-position:-10px -1551px}
+	.tekFooter.siyah .list li.cosmopolitan a {width:80px;height:27px;background-position:-10px -685px}
+	.tekFooter.siyah .list li.para a {width:80px;height:23px;background-position:-10px -1356px}
+	.tekFooter.siyah .list li.globalEnerji a {width:82px;height:25px;background-position:-10px -920px}
+	.tekFooter.siyah .list li.houseBeau a { width: 85px;background-position: -10px -2122px; height: 30px;}
+	.tekFooter.siyah .list li.lacivert a {width:40px;height:41px;background-position:-10px -10px}
+	.tekFooter.siyah .list li.turMat a {width:70px;height:43px;background-position:-10px -1785px}
+	.tekFooter.siyah .list li.turDag a {width:70px;height:43px;background-position:-10px -2288px;}
+	.tekFooter.siyah .list li.bazaar a {width:80px;height:30px;background-position:-10px -1005px}
+	.tekFooter.siyah .list li.cosmopolitanBride a {width:80px;height:28px;background-position:-10px -579px}
+	.tekFooter.siyah .list li.aktuel a {width:80px;height:29px;background-position:-10px -2018px}
+	.tekFooter.siyah .list li.bebegim a{ width: 85px;background-position: -10px -2160px; height: 30px;}
+	.tekFooter.siyah .list li.esquire a {width:80px;height:28px;background-position:-10px -752px}
+	.tekFooter.siyah .list li.cosmoGirl a {width:55px;height:42px;background-position:-10px -623px}
+	.tekFooter.siyah .list li.aboneTur a {width:80px;height:37px;background-position:-10px -305px}
+	.tekFooter.siyah .list li.chinaToday a {width:80px;height:29px;background-position:-10px -539px}
+	.tekFooter.siyah .list li.minika a {width:80px;height:32px;background-position:-10px -1134px}
+	.tekFooter.siyah .list li.turkuvazRadyolar a { width:90px; background-position: -5px -2239px;}
+	.tekFooter.siyah .list li.turkuvazKirtasiye a { width:90px; background-position:left -2397px;}
+	.tekFooter.siyah .list li.vavRadyo a { width: 36px; background-position: -10px -2448px;}
+	.tekFooter.siyah .list li.fikriyat a { width: 113px; background-position: left -2497px;}
+	.tekFooter.siyah .list li.asporRadyo a { width: 36px; background-position: -5px -2567px;}
+	
+	
+	

@@ -1,0 +1,11 @@
+@media screen and (max-width: 1002px) {
+
+	#nav-main-wrapper {
+		display: none;
+		}
+		
+	.score-wrapper {
+		padding: 10px 10px 5px;
+		}
+
+}
