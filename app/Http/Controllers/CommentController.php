@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use
-    App\Comment;
+    App\Comments;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -13,7 +13,7 @@ class CommentController extends Controller
     {
         $test1 = $request->all();
         $test1['sahip_id'] = Auth::id();
-        $commenti = new Comment();
+        $commenti = new Comments();
         $commenti->create($test1);
 
     }

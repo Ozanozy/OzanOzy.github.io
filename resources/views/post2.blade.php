@@ -49,8 +49,7 @@
                     </div>
                 </div>
                       <hr>
-
-                             <!-- <img class="media-object" src="http://placehold.it/64x64" alt=""> -->
+                        <!-- <img class="media-object" src="http://placehold.it/64x64" alt=""> -->
                         </a>
                         <div class="media-body">
                             @foreach($comments as $commentw)
@@ -80,7 +79,7 @@
                         {{ csrf_field() }}
                     </form>
                 </div><hr>
-                <!-- Comment Show -->
+                <!-- Comments Show -->
            @include("testing")
             <!--
             <div class="container">
@@ -106,7 +105,7 @@
                 </div>
             </div>
             -->
-            <!-- Comment end--->
+            <!-- Comments end--->
                 <hr>
                 <left><h2><p>En çok beğenilenler</p></h2></left>
                 <div class="col2 center">

@@ -59,12 +59,12 @@
     <li><a href="#home"></a></li>
     <li><a href="#home"></a></li>
     <li><a href="#home"></a></li>
-    <li><a href="/basaksehir/">Başakşehir</a></li>
-    <li><a href="/besiktas/">Beşiktaş</a></li>
-    <li><a href="/fenerbahce/">Fenerbahçe</a></li>
-    <li><a href="/galatasaray/">Galatasaray</a></li>
-    <li><a href="/superlig/">Süperlig</a></li>
-    <li><a href="/sampiyonlar-ligi/">Şampiyonlar Ligi</a></li>
+    <li><a href="/basaksehir">Başakşehir</a></li>
+    <li><a href="/besiktas">Beşiktaş</a></li>
+    <li><a href="/fenerbahce">Fenerbahçe</a></li>
+    <li><a href="/galatasaray">Galatasaray</a></li>
+    <li><a href="/superlig">Süperlig</a></li>
+    <li><a href="/sampiyonlarligi">Şampiyonlar Ligi</a></li>
      <!--
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Diğer Ligler</a>

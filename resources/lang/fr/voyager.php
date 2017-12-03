@@ -44,7 +44,7 @@ return [
         'exception'              => 'Exception',
         'featured'               => 'Mis en avant',
         'field_does_not_exist'   => 'Le champ n\'existe pas',
-        'how_to_use'             => 'Comment utiliser',
+        'how_to_use'             => 'Comments utiliser',
         'index'                  => 'Index',
         'internal_error'         => 'Erreur interne',
         'items'                  => 'élément(s)',
