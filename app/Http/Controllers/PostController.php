@@ -46,7 +46,7 @@ class PostController extends Controller
             ->get();
         $CommentDetails = \DB::table('comments')
             ->where("makale_id", $PostDetails->id)
-            ->orderBy('comment_id', 'desc')
+            //->orderBy('comment_id', 'desc')
             //->Limit('4')
             ->get();
         return view('post2', compact('PostDetails', 'AuthorDetails', "Latests", "CommentDetails"));
