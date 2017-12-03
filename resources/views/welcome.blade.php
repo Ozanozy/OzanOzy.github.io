@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Ozan Özyıldırım Site
                 </div>
 
                 <div class="links">
