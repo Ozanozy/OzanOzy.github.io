@@ -26,11 +26,12 @@ Route::get('Post/{slug}' , 'PostController@DetailofPost');
 Route::get('post2' , 'PostController@LatestPost');
 Route::post("/PostComment", 'CommentController@PostComment');
 Route::get("/{category_name}/", 'PostController@Listelebaba');
+//Route::get("/" , 'PostController@indexit');
+
 //Route::get("Post/{slug}", 'PostController@comment_selector');
 //Route::get("Post/{slug}" , 'CommentController@comment_all');
-//Route::get('/besiktas', function(){
-// return view('elon');});
-//Route::get("/" , 'PostController@findpage');
+//Route::get('/KATETE', function(){
+// return view('categorlists');});
 //Route::get("/" , 'PostController@GalleryLimit');
 //Route::get('/galeri' , 'GalleryController@findgaleri');
 //Route::get('/galeri' , 'GalleryController@findpage');

@@ -59,13 +59,12 @@ class PostController extends Controller
             ->orderBy('id', 'desc')
             //->limit('8')
             ->get();
-        return view('listofcategory' ,  compact('listeleulann'));
+        return view('mycategory' ,  compact('listeleulann'));
     }
 
-        public function index()
+        public function indexit()
     {
-
-        return view('testing');
+        return view('mycategory');
     }
 
     public function comment_selector($id)
